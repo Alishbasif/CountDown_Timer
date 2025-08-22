@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  background: url("bg2.jpg") no-repeat center center/cover;
+}
+
+#startbutton{
+  margin-top:80px;
+  margin-left: 590px;
+  height: 60px;
+  width: 180px;
+  border-radius: 10px;
+  font-size:large;
+  font-weight:bold;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+  cursor:pointer;
+  transition: 0.3s;
+}
+
+#countdown{
+    margin-left: 515px;
+    margin-bottom: 50px;
+    font-size:50px;
+    color :black;
+    background-color:aliceblue;
+    width:360px;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#Countdownpage{
+    margin-left: 40px;
+    font-weight: bold;
+    color:black;
+    margin-top :-40px;
+}
+
+#inputbox{
+  margin-top: 150px;
+  margin-left : 430px;
+  font-weight:bold;
+}
+
+#target{
+    color:#f4f6f7;
+    font-size: 40px;
+}
+
+#navbar{
+    margin-left: 1000px;
+    margin-top:30px;
+}
+
+#nav{
+    margin-left:20px;
+}
+
+#nav2{
+   margin-left: 20px;
+}
+
+#dateInput{
+    height: 50px;
+    width:220px;
+    margin-left:20px;
+    border-radius: 10px;
+    background-color: #f7f6f6f1;
+}

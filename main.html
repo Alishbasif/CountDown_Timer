@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div>
+        <ul id="navbar" class="animate__animated animate__backInDown">
+          <a>HOME</a>
+          <a id="nav" >ABOUT</a>
+          <a id="nav2" >CONTACT</a>
+          </span>
+        </ul>
+    </div>
+    <div id="Countdownpage">
+    <h1 class="animate__animated animate__backInLeft">Countdown Timer</h1>
+    </div>
+  <div id="inputbox" class="animate__animated animate__bounce">
+    <label for="dateInput" id="target">Set Target Date:</label>
+    <input type="datetime-local" id="dateInput" />
+  </div>
+   <button id="startbutton"class="animate__animated animate__bounce">Start Countdown</button>
+
+  <h2 id="countdown" class="animate__animated animate__bounce">00d 00h 00m 00s</h2>
+  <script src="main.js"></script>
+</body>
+</html>
